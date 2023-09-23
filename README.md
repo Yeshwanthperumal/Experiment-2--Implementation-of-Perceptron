@@ -42,7 +42,7 @@ Plot the error for each iteration
 Print the accuracy
 
 ## PROGRAM:
-'''
+```
 Developed By: Yeshwanth P
 Reg No.: 212222230178
 
@@ -79,6 +79,7 @@ def f(self, x: np.array) -> float:
    return np.where(self.f(x) >= 0, 1, -1)
 df = pd.read_csv('/content/IRIS.csv')
 df.head()
+
 # extract the label column
 y = df.iloc[:, 4].values
 # extract features
@@ -116,7 +117,7 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclass
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
-'''
+```
 
 ## OUTPUT:
 ![image](https://github.com/Ragu-123/Experiment-2--Implementation-of-Perceptron/assets/113915622/ccc7938e-1c1d-40bb-bbcc-90ebcb7ef3c9)
