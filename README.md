@@ -60,7 +60,7 @@ class Perceptron:
    self._b = 0.0  # y-intercept
    self._w = None  # weights assigned to input features
    self.misclassified_samples = []
- def fit(self, x: np.array, y: np.array, n_iter=10):
+def fit(self, x: np.array, y: np.array, n_iter=10):
    self._b = 0.0
    self._w = np.zeros(x.shape[1])
    self.misclassified_samples = []
