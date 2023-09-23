@@ -42,7 +42,7 @@ Plot the error for each iteration
 Print the accuracy
 
 ## PROGRAM:
-```
+``` 
 Developed By: Yeshwanth P
 Reg No.: 212222230178
 
